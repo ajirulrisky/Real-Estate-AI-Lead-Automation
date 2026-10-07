@@ -12,6 +12,12 @@ Real estate businesses receive many leads through websites, forms, and other cha
 
 This project automates the complete lead-handling process.
 
+## 🔄 Workflow Architecture
+
+![n8n Workflow](n8n-workflow.png)
+
+The workflow connects lead capture, AI analysis, Google Sheets storage, automated email communication, and follow-up into a single automated pipeline.
+
 ### Workflow
 
 ```text
@@ -33,3 +39,4 @@ Lead Classification
    Follow-up Email
         ↓
    Update Lead Status
+ .
